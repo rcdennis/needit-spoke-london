@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Every Friday at 11, finds the existing long overdue tasks, closes them as incomplete, and creates a task for Fred Luddy to investigate</description>
+        <internal_name>find_and_close_long_overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"9caefc4b-0682-4bdc-9551-3645a9499e12.calculated_date","label":"2➛Calculated Date","type":"string","base_type":"string"},{"name":"8680c02c-5b1b-4fd6-90ab-e62fe3d779c2.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"425dda1b-70b9-4807-b8cb-6148580b35a5.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"425dda1b-70b9-4807-b8cb-6148580b35a5.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85a673c7-ccdf-49c5-9deb-3930580da49e.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"85a673c7-ccdf-49c5-9deb-3930580da49e.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85a673c7-ccdf-49c5-9deb-3930580da49e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"de84c1d9-eefb-4aaa-ad57-88a388cc3831.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"de84c1d9-eefb-4aaa-ad57-88a388cc3831.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Find and Close Long Overdue NeedIt Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-24 19:24:17</sys_created_on>
+        <sys_id>c2e6359adb800010ea6985184b96195e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Find and Close Long Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_377333_needit_sp">92e02b20db800010ea6985184b961925</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">92e02b20db800010ea6985184b961925</sys_scope>
+        <sys_update_name>sys_hub_flow_c2e6359adb800010ea6985184b96195e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 19:31:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2e6359adb800010ea6985184b96195e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c2e6359adb800010ea6985184b96195e"/>
+</record_update>
